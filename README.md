@@ -7,7 +7,18 @@ The application combines Retrieval-Augmented Generation (RAG), Optical Character
 The system enables users to upload hospital documents such as policies, guidelines, and reports, ask natural language questions, analyze prescription or medical images, and retrieve structured information from enterprise databases. Responses are generated using relevant context from uploaded documents, ensuring accurate and grounded answers while minimizing hallucinations.
 To support enterprise deployment, the application is built using a modular architecture with FastAPI as the backend, Streamlit as the frontend, FAISS as the vector database, and Docker for containerized deployment.
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Problem Statement
+
+Healthcare organizations generate and manage a vast amount of unstructured information, including policies, clinical guidelines, discharge summaries, insurance documents, and medical prescriptions. Searching these documents manually is time-consuming and often delays access to critical information.
+
+In addition, healthcare professionals frequently need to interpret prescription images, retrieve structured information from enterprise databases, and obtain accurate answers from large collections of documents. Traditional search systems are keyword-based and cannot understand the context or intent behind user queries.
+
+There is a growing need for an intelligent, enterprise-ready AI assistant capable of understanding natural language, retrieving relevant information from multiple data sources, analyzing medical images, and providing accurate, context-aware responses.
+
+MediAssist AI addresses these challenges by combining Retrieval-Augmented Generation (RAG), Optical Character Recognition (OCR), Model Context Protocol (MCP), and Large Language Models (LLMs) within a LangGraph-based multi-agent architecture to deliver intelligent, explainable, and efficient healthcare assistance.
+
+-------------------------------------------------------------------------------------------------------
 
 ## Key Objectives
 
