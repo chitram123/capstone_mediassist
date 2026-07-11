@@ -1,0 +1,11 @@
+ID,Agent,Document,Topic,Question,Expected_Answer
+MM001,MULTIMODAL,prescription1.jpg,Medicines,What medicines are prescribed?,Paracetamol 650 mg and Vitamin C.
+MM002,MULTIMODAL,prescription1.jpg,Dosage,What is the dosage of Paracetamol?,One tablet twice daily after food.
+MM003,MULTIMODAL,prescription1.jpg,Frequency,How often should Vitamin C be taken?,Once daily after breakfast.
+MM004,MULTIMODAL,prescription1.jpg,Patient,Who is the patient?,Extract patient name.
+MM005,MULTIMODAL,prescription2.jpg,Medicines,List all prescribed medicines.,Amoxicillin 500 mg.
+MM006,MULTIMODAL,lab_report1.jpg,Summary,Summarize the lab report.,Summarize findings only.
+MM007,MULTIMODAL,lab_report1.jpg,Abnormalities,Are any abnormal values present?,Return abnormalities if present.
+MM008,MULTIMODAL,prescription2.jpg,Instructions,What instructions are given?,One capsule three times daily.
+MM009,MULTIMODAL,lab_report2.jpg,Patient,What is the patient name?,Extract patient name.
+MM010,MULTIMODAL,prescription1.jpg,Doctor,Who prescribed the medicines?,Extract doctor's name if present.

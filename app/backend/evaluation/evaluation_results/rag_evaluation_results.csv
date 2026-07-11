@@ -1,0 +1,96 @@
+ID,Agent,Document,Topic,Question,Expected_Answer,Generated_Answer,Accuracy,Faithfulness,Groundedness,Relevance,Completeness,Hallucination,Overall_Score,Confidence,Source,Executed_Agent,Response_Time(sec)
+RAG001,RAG,Admission_Process_SOP.pdf,Admission Types,What are the different types of hospital admissions?,"The hospital supports Planned, Emergency, Day Care, Surgical, Maternity and Transfer admissions.","The main types of hospital admission are:
+
+- Planned (elective) admission  
+- Emergency admission  
+- Day‑care admission  
+- Surgical admission  
+- Maternity admission  
+- Transfer admission",10,10,10,10,10,10,10,98%,RAG,RAG,3.55
+RAG002,RAG,Admission_Process_SOP.pdf,Workflow,What is the standard patient admission workflow?,Patient Arrival → Registration → Identity Verification → Clinical Assessment → Admission Decision → Insurance Verification → Bed Allocation → Admission Documentation → Patient Transfer to Ward → Admission Complete.,"**Standard patient admission workflow**
+
+1. **Arrival** – Patient presents with the consultant’s admission advice (and referral letter, if required).  
+2. **Registration** – Capture identification (government ID, corporate ID if applicable) and the admission advice.  
+3. **Clinical assessment** – Conduct a timely clinical evaluation.  
+4. **Cash‑less intimation to Medi Assist** – Within 2 hours of the admission request, send:  
+   - Pre‑authorization form  
+   - Clinical notes  
+   - Investigation reports  
+   - Cost estimate  
+
+This sequence ensures proper registration, regulatory compliance, prompt clinical evaluation, and coordination with the insurer/TPA (Medi Assist).",9,9,9,10,7,10,9,95%,RAG,RAG,4.84
+RAG003,RAG,Admission_Process_SOP.pdf,Registration,Which documents are required during planned admission?,"Admission advice, referral letter (if applicable), insurance card and government-issued ID.","**Required documents for a planned admission**
+
+- Government‑issued identification  
+- Health‑insurance card  
+- Employee ID (if covered by a corporate policy)  
+- Admission advice from the consulting physician  
+- Referral letter, when applicable  ",9,9,9,10,10,10,9,95%,RAG,RAG,3.83
+RAG005,RAG,Admission_Process_SOP.pdf,KPI,What is the target admission completion time?,Within 30 minutes.,The target is to complete admission within 30 minutes.,10,10,10,10,10,10,10,98%,RAG,RAG,9.08
+RAG006,RAG,Hospital_Operations_SOP.pdf,Pre-Authorization,When should pre-authorization be submitted?,Within 2 hours of admission registration.,Submit the pre‑authorization within two hours of the admission registration.,10,10,10,10,10,10,10,98%,RAG,RAG,17.27
+RAG007,RAG,Hospital_Operations_SOP.pdf,Policy Verification,What is verified during policy verification?,"Coverage, sum insured, waiting periods, exclusions and co-pay clauses.","Policy verification confirms:
+
+- The policy’s active status  
+- The coverage period  
+- The sum insured  
+- Network eligibility  
+- Applicable waiting periods  
+- Any exclusions  
+- Co‑pay clauses",10,10,10,10,10,10,10,98%,RAG,RAG,15.9
+RAG008,RAG,Hospital_Operations_SOP.pdf,Enhancement,When is an enhancement request required?,When expected bill exceeds approved amount by 10% or more.,An enhancement request is required when the expected bill exceeds the approved amount by 10 % or more.,10,10,10,10,10,10,10,98%,RAG,RAG,16.26
+RAG009,RAG,Hospital_Operations_SOP.pdf,Billing,What should a hospital bill include?,"Room rent, nursing, consultation, pharmacy, diagnostics, procedures and date-wise charges.","A hospital bill should itemize:
+
+- Charges by date  
+- Room rent  
+- Nursing services  
+- Consultation fees  
+- Pharmacy items  
+- Diagnostic tests",9,9,9,10,9,10,9,95%,RAG,RAG,17.38
+RAG010,RAG,Hospital_Operations_SOP.pdf,Discharge,When should final authorization be requested?,At least 4 hours before discharge.,Request final authorization at least 4 hours before the planned discharge.,10,10,10,10,10,10,10,98%,RAG,RAG,21.63
+RAG011,RAG,Hospital_Operations_SOP.pdf,Claims,Which documents are needed for final authorization?,"Final bill, break-up bill, discharge summary, investigation reports, OT notes if applicable, implant invoice and pharmacy statement.","The final‑authorization request requires:
+
+1. The final bill  
+2. The itemized (break‑up) bill  
+
+A third document is referenced in the source, but its details are not provided.",9,9,9,10,9,10,9,95%,RAG,RAG,18.54
+RAG012,RAG,Hospital_Operations_SOP.pdf,Fraud,List fraud indicators.,"Identity mismatch, fabricated documents, inflated billing, unnecessary admissions and unbundling.","- Mismatched patient identity  
+- Fake or altered documents  
+- Over‑billing or inflated charges  
+- Unnecessary admissions or services  
+- Unbundling procedures to bill them separately",10,10,10,10,10,10,10,98%,RAG,RAG,18.53
+RAG013,RAG,Compliance_Manual.pdf,Privacy,How should patient data be protected?,"Only authorized access, encrypted transmission and no sharing via personal email/messaging.","Patient data should be protected by:
+
+- **Following applicable regulations** – the Digital Personal Data Protection Act (India), IRDAI guidelines, and the hospital’s information‑security policies.  
+- **Restricting access** to authorized personnel only.  
+- **Encrypting data** during transmission (and at rest, where feasible).  
+- **Prohibiting use of personal email or messaging apps** for sharing patient information.",9,8,7,10,9,8,9,92%,RAG,RAG,22.81
+RAG014,RAG,Compliance_Manual.pdf,Retention,How long are medical records retained?,10 years.,Medical records must be retained for **10 years**.,10,10,10,10,10,10,10,100%,RAG,RAG,15.63
+RAG015,RAG,Compliance_Manual.pdf,Audit,When should audit observations be closed?,Within 30 days.,Audit observations should be closed within 30 days.,10,10,10,10,10,10,10,100%,RAG,RAG,15.46
+RAG016,RAG,Compliance_Manual.pdf,Patient Rights,Name key patient rights.,"Privacy, confidentiality, informed consent, respectful treatment and access to information.","- Right to privacy  
+- Right to confidentiality  
+- Right to informed consent  
+- Right to access medical information  
+- Right to respectful treatment",10,10,10,10,10,10,10,98%,RAG,RAG,17.99
+RAG017,RAG,Admission_Process_SOP.pdf,Bed Allocation,Who coordinates bed allocation?,Admission Department in coordination with Nursing.,"The Admission Department, in coordination with Nursing and Operations, coordinates bed allocation.",10,10,10,10,9,10,10,98%,RAG,RAG,16.7
+RAG018,RAG,Admission_Process_SOP.pdf,Consent,Which procedures need separate consent?,"Surgery, blood transfusion, ICU admission, high-risk procedures and anaesthesia.","Separate consent is required for:
+
+- Surgery  
+- Blood transfusion  
+- ICU admission  
+- High‑risk procedures  
+- Anesthesia",10,10,10,10,10,10,10,98%,RAG,RAG,17.38
+RAG019,RAG,Hospital_Operations_SOP.pdf,Escalation,Who is the first escalation level?,Insurance Desk Executive.,The first escalation level is Level 1 – the Insurance Desk Executive.,9,9,9,10,6,10,9,92%,RAG,RAG,17.2
+RAG021,RAG,Discharge_Summary.pdf,Discharge,What should a discharge summary contain?,"Diagnosis, procedures, treatment, medications and follow-up instructions.","**Discharge summary should contain**
+
+- **Patient details:** name, UHID, age, gender  
+- **Clinical information:** admission diagnosis, final diagnosis, procedures performed, treatment given  
+- **Outcome:** condition at discharge, medication instructions, follow‑up plan  
+- **Authentication:** consultant’s signature and hospital seal",10,10,10,10,10,10,10,100%,RAG,RAG,14.81
+RAG022,RAG,Discharge_Summary.pdf,Medication,What medication information is included at discharge?,"Medicine names, dosage and instructions.",The discharge summary provides **medication advice** as part of the outcome information.,10,10,10,10,10,10,10,98%,RAG,RAG,14.76
+RAG023,RAG,Discharge_Summary.pdf,Follow-up,Does the discharge summary include follow-up advice?,Yes.,"Yes, the discharge summary includes follow‑up instructions.",8,9,9,10,10,8,9,90%,RAG,RAG,18.51
+RAG024,RAG,Compliance_Manual.pdf,Security,Which regulations govern patient data privacy?,Digital Personal Data Protection Act and IRDAI guidelines.,"The primary regulations that govern patient‑data privacy are:
+
+- Digital Personal Data Protection Act (India)  
+- IRDAI Guidelines  
+- Hospital information‑security policies.",10,10,10,10,10,10,10,98%,RAG,RAG,17.12
+RAG025,RAG,Hospital_Operations_SOP.pdf,Cashless,When should Medi Assist be notified for emergency admission?,Within 24 hours of admission.,Notify Medi Assist within 24 hours of the emergency admission.,10,10,10,10,9,10,10,98%,RAG,RAG,19.07

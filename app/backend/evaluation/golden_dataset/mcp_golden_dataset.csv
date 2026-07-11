@@ -1,0 +1,11 @@
+ID,Agent,Document,Topic,Question,Expected_Answer
+MCP001,MCP,Database,Query,Search patient John Smith,Returns matching patient details.
+MCP002,MCP,Database,Query,Show history of patient 420,Returns patient history.
+MCP003,MCP,Database,Query,Show lab results for patient 420,Returns laboratory results.
+MCP004,MCP,Database,Query,Show payment summary for patient 420,Returns billing summary.
+MCP005,MCP,Database,Query,Search patient Alice,Returns matching patient.
+MCP006,MCP,Database,Query,Patient history for patient 101,Returns patient history.
+MCP007,MCP,Database,Query,Blood test for patient 101,Returns blood test.
+MCP008,MCP,Database,Query,Billing information for patient 101,Returns billing information.
+MCP009,MCP,Database,Query,Find patient Michael,Returns matching patient.
+MCP010,MCP,Database,Query,Kidney function results for patient 205,Returns KFT report.

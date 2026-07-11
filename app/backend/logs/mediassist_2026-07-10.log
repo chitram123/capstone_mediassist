@@ -1,0 +1,19 @@
+2026-07-10 01:17:54,894 | WARNING | Using CPU. Note: This module is much faster with a GPU.
+2026-07-10 01:18:03,171 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-10 01:18:03,220 | INFO | ========== Planner ==========
+2026-07-10 01:18:03,229 | INFO | Question: admision documents
+2026-07-10 01:18:03,229 | INFO | Selected Source: RAG
+2026-07-10 01:18:04,455 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-10 01:18:04,464 | INFO | ========== RAG ==========
+2026-07-10 01:18:04,467 | INFO | Retrieved 3 chunks
+2026-07-10 01:18:04,473 | INFO | Generated RAG response
+2026-07-10 01:18:04,475 | INFO | ========== Reason ==========
+2026-07-10 01:18:04,480 | INFO | Reviewing final response
+2026-07-10 01:18:05,171 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-10 01:18:05,175 | INFO | Response improved
+2026-07-10 01:18:05,175 | INFO | ========== Completed ==========
+2026-07-10 01:18:05,175 | INFO | Workflow completed successfully
+2026-07-10 01:18:05,175 | INFO | ========== Evaluation ==========
+2026-07-10 01:18:06,669 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-10 01:18:06,674 | INFO | Evaluation Completed
+2026-07-10 10:41:02,137 | WARNING | Using CPU. Note: This module is much faster with a GPU.

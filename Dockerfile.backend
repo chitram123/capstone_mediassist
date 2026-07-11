@@ -1,0 +1,27 @@
+# Base Image
+FROM python:3.10-bookworm
+
+# Set working directory
+WORKDIR /app
+
+# Install system dependencies
+RUN apt-get update --fix-missing && \
+    apt-get install -y --fix-missing \
+    tesseract-ocr \
+    libgl1 && \
+    rm -rf /var/lib/apt/lists/*
+
+# Copy requirements
+COPY requirements.txt .
+
+# Install Python packages
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy project
+COPY . .
+
+# Expose FastAPI port
+EXPOSE 8000
+
+# Start FastAPI
+CMD ["uvicorn", "app.backend.api.main:app", "--host", "0.0.0.0", "--port", "8000"]

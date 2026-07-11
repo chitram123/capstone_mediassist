@@ -1,0 +1,26 @@
+ID,Agent,Document,Topic,Question,Expected_Answer
+RAG001,RAG,Admission_Process_SOP.pdf,Admission Types,What are the different types of hospital admissions?,"The hospital supports Planned, Emergency, Day Care, Surgical, Maternity and Transfer admissions."
+RAG002,RAG,Admission_Process_SOP.pdf,Workflow,What is the standard patient admission workflow?,Patient Arrival → Registration → Identity Verification → Clinical Assessment → Admission Decision → Insurance Verification → Bed Allocation → Admission Documentation → Patient Transfer to Ward → Admission Complete.
+RAG003,RAG,Admission_Process_SOP.pdf,Registration,Which documents are required during planned admission?,"Admission advice, referral letter (if applicable), insurance card and government-issued ID."
+RAG004,RAG,Admission_Process_SOP.pdf,Emergency,Can emergency treatment begin before insurance approval?,Yes. Treatment must begin immediately; insurance approval must not delay care.
+RAG005,RAG,Admission_Process_SOP.pdf,KPI,What is the target admission completion time?,Within 30 minutes.
+RAG006,RAG,Hospital_Operations_SOP.pdf,Pre-Authorization,When should pre-authorization be submitted?,Within 2 hours of admission registration.
+RAG007,RAG,Hospital_Operations_SOP.pdf,Policy Verification,What is verified during policy verification?,"Coverage, sum insured, waiting periods, exclusions and co-pay clauses."
+RAG008,RAG,Hospital_Operations_SOP.pdf,Enhancement,When is an enhancement request required?,When expected bill exceeds approved amount by 10% or more.
+RAG009,RAG,Hospital_Operations_SOP.pdf,Billing,What should a hospital bill include?,"Room rent, nursing, consultation, pharmacy, diagnostics, procedures and date-wise charges."
+RAG010,RAG,Hospital_Operations_SOP.pdf,Discharge,When should final authorization be requested?,At least 4 hours before discharge.
+RAG011,RAG,Hospital_Operations_SOP.pdf,Claims,Which documents are needed for final authorization?,"Final bill, break-up bill, discharge summary, investigation reports, OT notes if applicable, implant invoice and pharmacy statement."
+RAG012,RAG,Hospital_Operations_SOP.pdf,Fraud,List fraud indicators.,"Identity mismatch, fabricated documents, inflated billing, unnecessary admissions and unbundling."
+RAG013,RAG,Compliance_Manual.pdf,Privacy,How should patient data be protected?,"Only authorized access, encrypted transmission and no sharing via personal email/messaging."
+RAG014,RAG,Compliance_Manual.pdf,Retention,How long are medical records retained?,10 years.
+RAG015,RAG,Compliance_Manual.pdf,Audit,When should audit observations be closed?,Within 30 days.
+RAG016,RAG,Compliance_Manual.pdf,Patient Rights,Name key patient rights.,"Privacy, confidentiality, informed consent, respectful treatment and access to information."
+RAG017,RAG,Admission_Process_SOP.pdf,Bed Allocation,Who coordinates bed allocation?,Admission Department in coordination with Nursing.
+RAG018,RAG,Admission_Process_SOP.pdf,Consent,Which procedures need separate consent?,"Surgery, blood transfusion, ICU admission, high-risk procedures and anaesthesia."
+RAG019,RAG,Hospital_Operations_SOP.pdf,Escalation,Who is the first escalation level?,Insurance Desk Executive.
+RAG020,RAG,Hospital_Operations_SOP.pdf,KPI,What is the target claim rejection rate?,Less than 2%.
+RAG021,RAG,Discharge_Summary.pdf,Discharge,What should a discharge summary contain?,"Diagnosis, procedures, treatment, medications and follow-up instructions."
+RAG022,RAG,Discharge_Summary.pdf,Medication,What medication information is included at discharge?,"Medicine names, dosage and instructions."
+RAG023,RAG,Discharge_Summary.pdf,Follow-up,Does the discharge summary include follow-up advice?,Yes.
+RAG024,RAG,Compliance_Manual.pdf,Security,Which regulations govern patient data privacy?,Digital Personal Data Protection Act and IRDAI guidelines.
+RAG025,RAG,Hospital_Operations_SOP.pdf,Cashless,When should Medi Assist be notified for emergency admission?,Within 24 hours of admission.
